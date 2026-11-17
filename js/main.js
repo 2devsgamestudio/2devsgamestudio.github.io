@@ -275,6 +275,7 @@
 
   function renderCovers(filterKey) {
     if (!coversGrid) return;
+    const basePath = coversGrid.dataset.basePath || '';
     const filtered = filterKey === 'all'
       ? PARODY_TITLES
       : PARODY_TITLES.filter((item) => item.filter === filterKey);
@@ -282,10 +283,11 @@
     const fragment = document.createDocumentFragment();
 
     filtered.forEach((game) => {
+      const resolvedSrc = `${basePath}${game.image}`;
       const card = document.createElement('button');
       card.type = 'button';
       card.className = 'cover-card';
-      card.dataset.lightboxSrc = game.image;
+      card.dataset.lightboxSrc = resolvedSrc;
       card.dataset.lightboxTitle = `${game.title} (${game.genre} · $${game.price})`;
       card.dataset.lightboxCaption = `${game.description} — Full physical case wrap-around artwork (front, spine & back).`;
       card.dataset.lightboxWidth = '1262';
@@ -295,7 +297,7 @@
       artWrap.className = 'cover-art-wrap';
 
       const img = document.createElement('img');
-      img.src = game.image;
+      img.src = resolvedSrc;
       img.alt = `${game.title} parody game box art`;
       img.width = 1262;
       img.height = 848;

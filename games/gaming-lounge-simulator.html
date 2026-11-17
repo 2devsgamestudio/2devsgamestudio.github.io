@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Lounge Simulator — 2Devs Game Studio</title>
+  <meta name="description" content="Gaming Lounge Simulator by 2Devs Game Studio: build and customize your video-game retail shop and arcade lounge, stock 600+ parody titles, forecast market trends, and manage staff.">
+  <meta property="og:title" content="Gaming Lounge Simulator — 2Devs Game Studio">
+  <meta property="og:description" content="First-person video-game retail store and arcade lounge simulation built in Unity by 2Devs Game Studio.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../assets/screenshots/main-menu.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Rajdhani:wght@600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- ═══ STICKY HEADER ═════════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="../index.html" class="brand-mark">
+        <span class="brand-badge" aria-hidden="true">2D</span>
+        <span class="brand-text">
+          <span class="brand-name">2Devs<span>Studio</span></span>
+          <span class="brand-sub">Game Development Studio</span>
+        </span>
+      </a>
+
+      <nav aria-label="Game page navigation">
+        <ul class="nav-links">
+          <li><a href="../index.html">Studio Home</a></li>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#features">Core Pillars</a></li>
+          <li><a href="#terminal">Inside the Shop</a></li>
+          <li><a href="#catalog">Game Catalog</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="../index.html#games" class="btn btn--ghost nav-cta">← All Games</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ═══ GAME HERO ═════════════════════════════════════════════════════ -->
+    <section id="overview" class="hero">
+      <div class="hero-backdrop-grid" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div>
+          <a href="../index.html#games" class="subpage-breadcrumb">← Back to 2Devs Studio Home</a>
+
+          <div class="hero-pill">
+            <span class="hero-pill-dot" aria-hidden="true"></span>
+            <span>Flagship Title · PC Simulation · Unity 6</span>
+          </div>
+
+          <h1 class="hero-title">
+            Gaming Lounge <em>Simulator</em>
+          </h1>
+
+          <p class="hero-desc">
+            Build your shop. Sell the games. Grow your dream. Step behind the counter of a stylized first-person
+            video-game retail store and arcade lounge—stocking hundreds of parody boxed titles, tracking a
+            3-layer living market, customizing your storefront, and unlocking a 75-node progression network.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#terminal" class="btn btn--gold">Explore Shop Terminal →</a>
+            <a href="#catalog" class="btn btn--ghost">Browse Game Catalog</a>
+          </div>
+
+          <div class="hero-stats" aria-label="Game highlights">
+            <div class="hero-stat">
+              <span class="hero-stat-value">600<span>+</span></span>
+              <span class="hero-stat-label">Parody Titles</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">12</span>
+              <span class="hero-stat-label">Game Genres</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">75</span>
+              <span class="hero-stat-label">Skill Tree Nodes</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">28</span>
+              <span class="hero-stat-label">Day Season Cycle</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-showcase" aria-label="Gaming Lounge Simulator storefront screenshot">
+          <div class="hero-showcase-bar">
+            <span class="hero-showcase-tag">Gaming Lounge // Storefront &amp; Main Menu</span>
+            <span class="hero-showcase-status">In Active Development</span>
+          </div>
+
+          <div class="hero-frame">
+            <button
+              type="button"
+              class="hero-frame-trigger"
+              data-lightbox-src="../assets/screenshots/main-menu.jpg"
+              data-lightbox-title="Gaming Lounge Simulator — Main Menu &amp; Storefront"
+              data-lightbox-caption="Warm stylized retail world with dynamic day-to-night cycle and tactile storefront design."
+              data-lightbox-width="1365"
+              data-lightbox-height="768"
+              aria-label="Inspect full-resolution screenshot of Gaming Lounge Simulator main menu"
+            >
+              <img
+                src="../assets/screenshots/main-menu.jpg"
+                alt="Gaming Lounge Simulator storefront and main menu showing the Games For All shop exterior"
+                fetchpriority="high"
+                width="1365"
+                height="768"
+              >
+            </button>
+          </div>
+
+          <div class="hero-frame-caption">
+            <div>
+              <strong>Games For All Storefront</strong>
+              <div>Build your shop. Sell the games. Grow your dream.</div>
+            </div>
+            <span class="hero-zoom-hint">Click to Expand</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ═══ 4 GAMEPLAY PILLARS ════════════════════════════════════════════ -->
+    <section id="features" class="section section--alt">
+      <div class="container">
+        <div class="game-banner">
+          <div class="section-header" style="margin-bottom: 0;">
+            <span class="section-eyebrow">01 // Core Gameplay</span>
+            <h2 class="section-title">Four Pillars of <em>Shop Mastery</em></h2>
+            <p class="section-lead">
+              Every system inside Gaming Lounge Simulator is engineered around responsive retail decisions—from
+              ordering hot releases at wholesale discounts to expanding your arcade lounge and staff roster.
+            </p>
+          </div>
+
+          <div class="game-meta-pills" aria-label="Game details">
+            <span class="meta-pill meta-pill--gold">PC Simulation</span>
+            <span class="meta-pill">First-Person Retail &amp; Arcade</span>
+            <span class="meta-pill">Unity 6</span>
+          </div>
+        </div>
+
+        <div class="pillars-grid">
+          <article class="pillar-card">
+            <div class="pillar-top">
+              <span class="pillar-index">PILLAR 01</span>
+              <span class="pillar-chip">600+ Titles · 12 Genres</span>
+            </div>
+            <h3 class="pillar-title">Stock Parody Game Cases &amp; Complete Your Codex</h3>
+            <p class="pillar-body">
+              Order physical game cases across twelve distinct genres—from <em>Call of Doody</em> and
+              <em>Door Infernal</em> to <em>The Snitcher 3</em>, <em>President Evil</em>, and
+              <em>Dark Bowls</em>—each with custom front, spine, and back cover art.
+            </p>
+            <ul class="pillar-points">
+              <li>12 genre aisles with dedicated shelf signs &amp; mixed bargain displays</li>
+              <li>Daily wholesale supplier rotation &amp; featured New Release hype drops</li>
+              <li>Collectible in-game Codex tracking discovered covers, ratings, and pricing</li>
+            </ul>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-top">
+              <span class="pillar-index">PILLAR 02</span>
+              <span class="pillar-chip">3-Layer Demand Engine</span>
+            </div>
+            <h3 class="pillar-title">Read a Living Market &amp; 28-Day Season Calendar</h3>
+            <p class="pillar-body">
+              Customer preferences shift dynamically every day across three interacting simulation layers:
+              procedural market curves, yearly seasonal calendar events, and fresh release hype windows.
+            </p>
+            <ul class="pillar-points">
+              <li>Interactive <strong>Trends</strong> forecast app projecting demand windows 2–14 days out</li>
+              <li><strong>28-Day Season Calendar</strong> showing upcoming genre modifiers &amp; drops</li>
+              <li>Autonomous NPC customers with category demand budgets &amp; shelf-search AI</li>
+            </ul>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-top">
+              <span class="pillar-index">PILLAR 03</span>
+              <span class="pillar-chip">Cozy Storefront &amp; Arcade</span>
+            </div>
+            <h3 class="pillar-title">Customize Every Finish &amp; Add Playable Arcades</h3>
+            <p class="pillar-body">
+              Design a bright, welcoming store from sunrise to late-night rush. Order new furniture on your
+              tablet, customize shop finishes, expand your floor footprint, and install playable arcade cabinets.
+            </p>
+            <ul class="pillar-points">
+              <li>Modular 3-, 4-, and 5-row shelves, display racks, and interior styling options</li>
+              <li>Dynamic time-of-day lighting with warm street lamps and cozy atmosphere</li>
+              <li>Arcade lounge cabinets that attract browsing customers and generate extra revenue</li>
+            </ul>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-top">
+              <span class="pillar-index">PILLAR 04</span>
+              <span class="pillar-chip">Staff Book &amp; 75 Skills</span>
+            </div>
+            <h3 class="pillar-title">Hire Staff &amp; Master the 75-Node Skill Tree</h3>
+            <p class="pillar-body">
+              Scale from solo shopkeeper to full retail manager. Recruit cashiers and shelf organizers from
+              daily applicant pools and invest profits into six deep progression branches.
+            </p>
+            <ul class="pillar-points">
+              <li>Staff Book with Cashier &amp; Organization speed tiers (Bad to Excellent) &amp; daily payroll</li>
+              <li>6 Skill Branches: Operations, Customer Experience, Daily Suppliers, New Releases, Staff, Arcade</li>
+              <li>Unlocks larger carry capacity, bulk discounts, bonus copies, and longer shop days</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ INSIDE THE SHOP TERMINAL (TABBED GALLERY) ═════════════════════ -->
+    <section id="terminal" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">02 // Inside the Shop</span>
+          <h2 class="section-title">Explore the <em>Shop Floor &amp; Terminal</em></h2>
+          <p class="section-lead">
+            Switch between tabs to preview gameplay HUD, shop customization, computer apps, staff management,
+            and progression screens. Click any frame to inspect it full-size.
+          </p>
+        </div>
+
+        <div class="terminal-shell">
+          <div class="terminal-tablist" role="tablist" focusgroup="tablist nomemory" aria-label="Shop terminal views">
+            <button type="button" role="tab" id="tab-storefront" class="terminal-tab" aria-selected="true" focusgroupstart>
+              Storefront &amp; HUD
+            </button>
+            <button type="button" role="tab" id="tab-market" class="terminal-tab" aria-selected="false">
+              Shop PC &amp; Market
+            </button>
+            <button type="button" role="tab" id="tab-progression" class="terminal-tab" aria-selected="false">
+              Progression &amp; Staff
+            </button>
+            <button type="button" role="tab" id="tab-codex" class="terminal-tab" aria-selected="false">
+              Codex &amp; Expansion
+            </button>
+          </div>
+
+          <div class="terminal-panels">
+            <!-- Panel 1: Storefront & HUD -->
+            <div role="tabpanel" class="terminal-panel" aria-labelledby="tab-storefront" tabindex="0">
+              <div class="tabpanel-inner">
+                <div class="tabpanel-intro">
+                  <h3>First-Person Retail Loop &amp; Store Styling</h3>
+                  <p>Minimal translucent HUD keeps the warm store world front and center while letting you carry boxes, customize finishes, and furnish your floor.</p>
+                </div>
+
+                <div class="gallery-grid">
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/gameplay-hud.png"
+                    data-lightbox-title="Gameplay HUD &amp; Tactile Interaction"
+                    data-lightbox-caption="Capsule cash and clock displays, directional compass, tool hotbar, and gold-highlighted physical case interaction."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="940"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/gameplay-hud.png" alt="First-person gameplay HUD showing compass, cash counter, tool hotbar, and interactive game case" width="1672" height="940" loading="lazy">
+                      <span class="shot-badge">Gameplay HUD</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">Tactile Interaction &amp; Transparent HUD</h4>
+                      <p class="shot-desc">Pick up, restock, and arrange physical cases with a clean, unobstructed viewport.</p>
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/shop-customization.png"
+                    data-lightbox-title="Real-Time Shop Finish Customization"
+                    data-lightbox-caption="Customize shelves, counters, walls, and doors with swappable materials and visual variants right on the shop floor."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/shop-customization.png" alt="Shop customization overlay for swapping shelf and wall materials" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">Customization</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">Live Material &amp; Shape Swapper</h4>
+                      <p class="shot-desc">Tailor your shelves, flooring, and trim to match your signature store look.</p>
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/furniture-shop.png"
+                    data-lightbox-title="Tablet Furniture Shop"
+                    data-lightbox-caption="Browse modular shelves, checkout counters, and arcade cabinets directly from your in-hand shop tablet."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/furniture-shop.png" alt="In-game tablet furniture store displaying shelves and shop fixtures" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">Tablet App</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">Tablet Furniture Catalog</h4>
+                      <p class="shot-desc">Order new 3-, 4-, and 5-row shelves plus arcade machines as profits climb.</p>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Panel 2: Shop PC & Market -->
+            <div role="tabpanel" class="terminal-panel" aria-labelledby="tab-market" hidden="until-found">
+              <div class="tabpanel-inner">
+                <div class="tabpanel-intro">
+                  <h3>Shop Terminal Desktop, Wholesale Store &amp; Season Calendar</h3>
+                  <p>Your in-store PC acts as the command center for ordering wholesale stock, jumping on trending releases, and planning around 28-day seasonal spikes.</p>
+                </div>
+
+                <div class="gallery-grid">
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/pc-desktop.png"
+                    data-lightbox-title="Shop Terminal Desktop"
+                    data-lightbox-caption="Access Store, New Releases, Trends, Season Calendar, Staff Book, Skill Tree, and Codex from your counter PC."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/pc-desktop.png" alt="Gaming Lounge in-game computer desktop with shop management applications" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">Shop PC</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">Shop Terminal OS</h4>
+                      <p class="shot-desc">Dedicated multi-app desktop running inside your counter monitor.</p>
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/pc-store.png"
+                    data-lightbox-title="Wholesale Store &amp; Margin Preview"
+                    data-lightbox-caption="Filter daily supplier titles by genre, demand, score, and price with real-time wholesale margin calculations."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/pc-store.png" alt="Wholesale Store terminal app showing game listings, demand values, and profit margin" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">Wholesale</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">Daily Suppliers &amp; Margin Tracking</h4>
+                      <p class="shot-desc">Compare stock levels, demand scores, and retail profit before placing bulk orders.</p>
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/pc-new-releases.png"
+                    data-lightbox-title="New Releases &amp; Hype Windows"
+                    data-lightbox-caption="Capitalize on multi-day launch hype windows and unlock tiered bulk discounts as your business grows."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/pc-new-releases.png" alt="New Releases terminal app displaying featured game launch and bulk discount tiers" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">New Releases</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">Featured Drops &amp; Bulk Savings</h4>
+                      <p class="shot-desc">Stock fresh headline releases early to ride genre demand spikes.</p>
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/pc-calendar.png"
+                    data-lightbox-title="28-Day Season Calendar &amp; Event Modifiers"
+                    data-lightbox-caption="Track upcoming seasonal festivals, sale events, and genre demand boosts across a full 28-day month."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/pc-calendar.png" alt="28-Day Season Calendar terminal app with event spans and release markers" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">Calendar</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">28-Day Season Planner</h4>
+                      <p class="shot-desc">Anticipate seasonal genre surges and plan inventory ahead of big dates.</p>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Panel 3: Progression & Staff -->
+            <div role="tabpanel" class="terminal-panel" aria-labelledby="tab-progression" hidden="until-found">
+              <div class="tabpanel-inner">
+                <div class="tabpanel-intro">
+                  <h3>75-Node Skill Tree &amp; Staff Book</h3>
+                  <p>Invest your earnings into permanent store upgrades across six radial branches and hire specialized staff to keep queues moving and shelves stocked.</p>
+                </div>
+
+                <div class="gallery-grid">
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/pc-skill-tree.png"
+                    data-lightbox-title="75-Node Radial Skill Tree"
+                    data-lightbox-caption="Six branches—Operations, Customer Experience, Daily Suppliers, New Releases, Staff, and Arcade—with custom pictograms and rank markers."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/pc-skill-tree.png" alt="Skill Tree computer app displaying six radial progression branches" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">Skill Tree</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">6-Branch Progression Network</h4>
+                      <p class="shot-desc">Pan, zoom, and unlock 75 nodes expanding shop capacity, discounts, and arcade earnings.</p>
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/pc-staff-book.png"
+                    data-lightbox-title="Staff Book &amp; Employee Roles"
+                    data-lightbox-caption="Evaluate applicant cashier and organization tiers, compare daily wages, and assign employees to Cashier or Manage Shelves."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/pc-staff-book.png" alt="Staff Book terminal app listing hired employees, speed tiers, and job assignments" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">Staff Book</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">Hiring, Roles &amp; Speed Tiers</h4>
+                      <p class="shot-desc">Assign autonomous staff to checkout duty or shelf restocking as foot traffic grows.</p>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Panel 4: Codex & Expansion -->
+            <div role="tabpanel" class="terminal-panel" aria-labelledby="tab-codex" hidden="until-found">
+              <div class="tabpanel-inner">
+                <div class="tabpanel-intro">
+                  <h3>Collector Codex &amp; Shop Floor Expansion</h3>
+                  <p>Every game cover you unlock enters your permanent store Codex, while floor expansion upgrades physically open up new retail space for aisles and arcades.</p>
+                </div>
+
+                <div class="gallery-grid">
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/pc-codex.png"
+                    data-lightbox-title="In-Game Game Catalog Codex"
+                    data-lightbox-caption="Browse unlocked titles across 12 genres with full cover previews, wholesale vs. retail pricing, and descriptions."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/pc-codex.png" alt="Codex terminal app showing unlocked game cover art, genres, and pricing data" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">Codex</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">600-Title Game Codex</h4>
+                      <p class="shot-desc">Track every parody title discovered across your store's lifetime.</p>
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    class="shot-card"
+                    data-lightbox-src="../assets/screenshots/shop-expansion.png"
+                    data-lightbox-title="Store Floor Expansion"
+                    data-lightbox-caption="Unlock bigger store footprints to house specialized genre aisles, checkout lanes, and an expanded arcade lounge."
+                    data-lightbox-width="1672"
+                    data-lightbox-height="941"
+                  >
+                    <div class="shot-media">
+                      <img src="../assets/screenshots/shop-expansion.png" alt="Shop expansion interface for upgrading store square footage" width="1672" height="941" loading="lazy">
+                      <span class="shot-badge">Expansion</span>
+                    </div>
+                    <div class="shot-body">
+                      <h4 class="shot-title">Expand Your Floor Plan</h4>
+                      <p class="shot-desc">Grow from a cozy corner shop into a packed multi-aisle gaming lounge.</p>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ ON THE SHELVES (PARODY CATALOG & GENRE REEL) ══════════════════ -->
+    <section id="catalog" class="section section--alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">03 // On the Shelves</span>
+          <h2 class="section-title">600+ Parody Titles Across <em>12 Genres</em></h2>
+          <p class="section-lead">
+            Every shelf in Gaming Lounge Simulator stocks custom physical cases with lovingly parodied titles,
+            genre badges, and full front-to-back box art. Filter a curated sample below or click any case to
+            inspect the full wrap-around cover.
+          </p>
+        </div>
+
+        <!-- Pauseable Genre Sign Marquee (WCAG 2.2.2) -->
+        <div class="reel-bar" aria-label="12 in-game genre badges">
+          <div class="reel-viewport">
+            <div class="reel-track" id="reel-track">
+              <div class="sign-chip"><img src="../assets/signs/actioncategory.png" alt="Action genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/rpgcategory.png" alt="RPG genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/simulationcategory.png" alt="Simulation genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/horrorcategory.png" alt="Horror genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/soulscategory.png" alt="Souls genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/mmocategory.png" alt="MMO genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/sportscategory.png" alt="Sports genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/adventurecategory.png" alt="Adventure genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/survivalcategory.png" alt="Survival genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/platformercategory.png" alt="Platformer genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/puzzlecategory.png" alt="Puzzle genre badge" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip"><img src="../assets/signs/casualcategory.png" alt="Casual genre badge" width="597" height="848" loading="lazy"></div>
+
+              <!-- Duplicate loop for seamless scrolling -->
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/actioncategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/rpgcategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/simulationcategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/horrorcategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/soulscategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/mmocategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/sportscategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/adventurecategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/survivalcategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/platformercategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/puzzlecategory.png" alt="" width="597" height="848" loading="lazy"></div>
+              <div class="sign-chip" aria-hidden="true"><img src="../assets/signs/casualcategory.png" alt="" width="597" height="848" loading="lazy"></div>
+            </div>
+          </div>
+
+          <button type="button" id="reel-toggle" class="reel-control">Pause Reel</button>
+        </div>
+
+        <div class="catalog-toolbar">
+          <div class="filter-pills" role="group" aria-label="Filter showcase covers by genre">
+            <button type="button" class="filter-pill is-active" data-filter="all" aria-pressed="true">All Featured (12)</button>
+            <button type="button" class="filter-pill" data-filter="action" aria-pressed="false">Action</button>
+            <button type="button" class="filter-pill" data-filter="rpg" aria-pressed="false">RPG</button>
+            <button type="button" class="filter-pill" data-filter="simulation" aria-pressed="false">Simulation</button>
+            <button type="button" class="filter-pill" data-filter="horror" aria-pressed="false">Horror</button>
+            <button type="button" class="filter-pill" data-filter="souls-mmo" aria-pressed="false">Souls &amp; MMO</button>
+            <button type="button" class="filter-pill" data-filter="sports" aria-pressed="false">Sports</button>
+          </div>
+          <span class="catalog-note">Showing 12 highlights from the 600-title catalog</span>
+        </div>
+
+        <div class="covers-grid" id="covers-grid" data-base-path="../"></div>
+      </div>
+    </section>
+
+    <!-- ═══ DEVELOPED BY 2DEVS STUDIO CTA ═════════════════════════════════ -->
+    <section id="studio-cta" class="section">
+      <div class="container">
+        <div class="studio-cta-banner">
+          <div>
+            <span class="section-eyebrow section-eyebrow--cyan">Developed By</span>
+            <h2 class="section-title" style="margin-top: 6px; margin-bottom: 8px;">
+              Built at <span class="accent-cyan">2Devs Game Studio</span>
+            </h2>
+            <p class="section-lead">
+              Created by co-founders Omar AbdElzaher Sleam and Mohamed Hamdy. Explore our studio, engineering DNA, and upcoming work.
+            </p>
+          </div>
+
+          <div class="studio-cta-actions">
+            <a href="../index.html#founders" class="btn btn--cyan">Meet the Founders →</a>
+            <a href="../index.html#contact" class="btn btn--ghost">Studio Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 2Devs Game Studio · Gaming Lounge Simulator.</div>
+      <div class="footer-links">
+        <a href="../index.html">Studio Home</a>
+        <a href="https://omar92.github.io/" target="_blank" rel="noopener noreferrer">omar92.github.io</a>
+        <a href="https://m-hamdy23.github.io/" target="_blank" rel="noopener noreferrer">m-hamdy23.github.io</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ LIGHTBOX DIALOG (light-dismiss-a-dialog) ══════════════════════ -->
+  <dialog id="media-lightbox" closedby="any" aria-labelledby="lightbox-title">
+    <div class="lightbox-inner">
+      <div class="lightbox-head">
+        <h2 class="lightbox-title" id="lightbox-title">Preview</h2>
+        <button type="button" id="lightbox-close" class="lightbox-close" aria-label="Close preview">✕</button>
+      </div>
+      <div class="lightbox-stage">
+        <img id="lightbox-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="Expanded media preview">
+      </div>
+      <div class="lightbox-foot" id="lightbox-caption"></div>
+    </div>
+  </dialog>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
